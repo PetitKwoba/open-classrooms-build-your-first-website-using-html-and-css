@@ -1,0 +1,46 @@
+/*adding styles to haddings and navigation*/
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(6, 192, 248);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(114, 10, 250);
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    
+}
+
+body {
+    background-color: rgb(228, 245, 167);
+}
+
+h1 {
+    background-color: #4CAF50;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: #4CAF50;
+    text-transform: capitalize;
+}
+
+ol {
+    text-transform: capitalize;
+}
